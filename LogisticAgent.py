@@ -12,7 +12,6 @@ def logistic_analyze(
     random_state: int
 ):
    
-    # 1. Split into train/test
     X_train = train_tweets
     y_train = train_tweets_sentiment
     X_test = test_tweets
